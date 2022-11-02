@@ -1,0 +1,51 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    margin-right: 35px;
+}
+a:hover{
+    background-color: coral;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+}
+.main h2{
+     font-size: 35px; 
+     margin-bottom: 0;
+     font-style: oblique;
+}
+.xox{
+    display: flex;
+    justify-content: center;
+    
+}
+.main input{
+    font-size: 1.5em;
+    border-radius: 3px;
+    margin-top: 15px;
+    border: 2px solid gainsboro;
+    color: gray;
+    padding-left: 8px;
+}
+.main button{
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: darkorange;
+    padding: 5px;
+    color: azure;
+    border: 0;
+    
+}
+
